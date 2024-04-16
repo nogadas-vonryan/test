@@ -1,0 +1,277 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("background_4.gif");
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  background-image: url("bg_px_3.jpg");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  text-align: center;
+  line-height: 90px;
+  background-size: cover;
+  color: #f8c1d8;
+  width: 100%;
+}
+
+h2 {
+  font-style: italic;
+  color: #f8c1d8;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a:link {
+  color: #e7ddf3;
+}
+
+.header {
+  width: 100%
+}
+
+.contact-me input,
+.contact-me textarea {
+  color: white;
+  background-color: #ffffff17;
+}
+
+@media (max-width: 426px) {
+  h1 {
+    padding: 2.1vw;
+  }
+
+  img {
+    width: 120px;
+    height: 100px;
+    padding: 0.2rem;
+  }
+
+  .interests,
+  .my-works,
+  .testimonials {
+    background-color: rgba(6, 6, 6, 0.5);
+    border: 2px solid rgb(95, 95, 95);
+    margin: 1rem;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+  }
+
+  .gallery {
+    background-color: rgba(6, 6, 6, 0.5);
+    border: 2px solid rgb(95, 95, 95);
+    padding-bottom: 1rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .contact-me {
+    background-color: rgba(6, 6, 6, 0.5);
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 25px;
+    padding: 20px;
+  }
+
+  .contact-container,
+  .upper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .message-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+@media (min-width: 426px) and (max-width: 800px) {
+  h1 {
+    padding: 2.1vw;
+  }
+
+  img {
+    width: 120px;
+    height: 100px;
+    padding: 0.2rem;
+  }
+
+  .interests,
+  .my-works,
+  .testimonials {
+    background-color: rgba(6, 6, 6, 0.5);
+    border: 2px solid rgb(95, 95, 95);
+    margin: 1rem;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+  }
+
+  .gallery {
+    background-color: rgba(6, 6, 6, 0.5);
+    border: 2px solid rgb(95, 95, 95);
+    padding-bottom: 1rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .contact-me {
+    background-color: rgba(6, 6, 6, 0.5);
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 25px;
+    padding: 20px;
+  }
+
+  .contact-container,
+  .upper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .message-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+@media (min-width: 800px) {
+  h1 {
+    padding: 1vw;
+  }
+
+  img {
+    width: 200px;
+    height: 160px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    border-radius: 25px;
+    margin-bottom: 3rem;
+  }
+
+  .interests {
+    background-color: rgba(6, 6, 6, 0.5);
+    border: 2px solid rgb(95, 95, 95);
+    margin: 1rem;
+    width: 250px;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+  }
+
+  .my-works {
+    background-color: rgba(6, 6, 6, 0.5);
+    border: 2px solid rgb(95, 95, 95);
+    margin-bottom: 1rem;
+    width: 250px;
+    border-radius: 25px;
+  }
+
+  .testimonials {
+    background-color: rgba(6, 6, 6, 0.5);
+    border: 2px solid rgb(95, 95, 95);
+    width: 250px;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+  }
+
+  .gallery {
+    background-color: rgba(6, 6, 6, 0.5);
+    border: 2px solid rgb(95, 95, 95);
+    margin-bottom: 3rem;
+    border-radius: 25px;
+  }
+
+  .gallery-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+  }
+
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .upper-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .upper-section > div,
+  .gallery {
+    padding: 2rem;
+  }
+
+  .contact-me {
+    background-color: rgba(6, 6, 6, 0.5);
+    border: 2px solid rgb(95, 95, 95);
+    margin-bottom: 1rem;
+    border-radius: 25px;
+    padding: 1rem;
+  }
+
+  .contact-me div {
+    padding: 0.5rem;
+  }
+
+  .upper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .message-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
+}
